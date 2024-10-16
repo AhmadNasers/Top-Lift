@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home_style.css">
+</head>
+<body>
+    <header>
+        <img src="topliftlb_logo.jpeg" alt="">
+        <ul class="header_list">
+            <li><a href="">Home</a></li>
+            <li><a href="" onclick="scrollToSection(event, 'categories')">Categories</a></li>
+            <li><a href="" onclick="scrollToSection(event, 'services')">Services</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="" onclick="scrollToSection(event, 'videos')">Videos</a></li>
+        </ul>
+    </header>
+    <div class="div_2">
+        <h1>Reliable and Efficient Elevators</h1>
+        <button type="submit" id="enquire_button">Enquire </button>
+    </div>
+    <div id="categories">
+        <h2>Categories</h2>
+        <div class="categories_container">
+            <div class="categories_children">
+            <img src="panoramic_elev.jpg" alt="">
+            <h4>Panroamic Elevator</h4>
+            </div>
+            <div class="categories_children">
+                <img src="commercial_elevator.jpg" alt="">
+                <h4>Commercial Escalavator</h4>
+                </div>
+                <div class="categories_children">
+                    <img src="cars_elev.jpg" alt="">
+                    <h4>Cars Elevator</h4>
+                    </div>
+                    <div class="categories_children">
+                        <img src="dump-lift8.jpg" alt="">
+                        <h4>Dump Waiter Elevator</h4>
+                        </div>
+                      
+        </div>
+    </div>
+    <div id="videos">
+        <h2>Videos</h2>
+        <div class="videos_container">
+            <div class="videos_children">
+                <video controls  muted  src="top_v1.mp4" ></video>
+            </div>
+            <div class="videos_children">
+                <video controls  muted src="top_v2.mp4"></video>
+            </div>
+            <div class="videos_children">
+                <video controls  muted src="top_v3.mp4"></video>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <h2>Services</h2>
+        <div class="service_container">
+            <div class="service_children">
+                <h4>Annual Maintenance Contract</h4>
+                <p>We are one of the reliable and well known service providers for elevators 
+                    maintenance. We offer our clients annual maintenance contract for all types of lifts.
+                </p>
+            </div>
+            <div class="service_children">
+                <h4>Installation</h4>
+                <p>Installation works are carried out after discussions on the type of lifts required 
+                    to meet the demands of the building, using the latest technology equipment.
+                </p>
+            </div>
+            <div class="service_children">
+                <h4>Modification</h4>
+                <p>
+                    We modify our clients elevator with the latest and updated techniques, technology,
+                     design and compact features to ensure maximum safety and to reduce the energy cost.
+
+                </p>
+            </div> 
+            
+        </div>
+    </div>
+    <script src="top_lift_script.js"></script>
+</body>
+</html>
